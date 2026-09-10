@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "category": "Technical Support",
+    "priority": "P0",
+    "summary": "Payment gateway 500 error preventing all customers from completing checkout.",
+    "suggested_action": "Trigger P0 pager alert to on-call incident response team.",
+    "needs_human": true,
+    "confidence": 0.95
+  },
+  {
+    "id": 2,
+    "category": "Account Access",
+    "priority": "P2",
+    "summary": "User requesting assistance to update registered business email and phone number on profile page.",
+    "suggested_action": "Provide self-service profile update instructions or verify 2FA credentials.",
+    "needs_human": false,
+    "confidence": 0.94
+  },
+  {
+    "id": 3,
+    "category": "Billing",
+    "priority": "P1",
+    "summary": "Customer reported being double charged for Pro annual subscription on invoice #INV-2024-9981.",
+    "suggested_action": "Route to Finance/Billing queue to initiate immediate duplicate charge refund.",
+    "needs_human": true,
+    "confidence": 0.96
+  },
+  {
+    "id": 4,
+    "category": "General Inquiry",
+    "priority": "P3",
+    "summary": "Customer asking if dark mode support is planned for the desktop dashboard.",
+    "suggested_action": "Log feature request in Product backlog and share public roadmap link.",
+    "needs_human": false,
+    "confidence": 0.95
+  },
+  {
+    "id": 5,
+    "category": "Technical Support",
+    "priority": "P2",
+    "summary": "CSV bulk export feature times out when exporting more than 5,000 records.",
+    "suggested_action": "File bug with Engineering team and advise user on partitioned export workaround.",
+    "needs_human": false,
+    "confidence": 0.91
+  },
+  {
+    "id": 6,
+    "category": "Technical Support",
+    "priority": "P1",
+    "summary": "Sarcastic complaint regarding application crash during live client presentation.",
+    "suggested_action": "Escalate to Tier-2 support with customer apology and pull crash diagnostics.",
+    "needs_human": true,
+    "confidence": 0.85
+  },
+  {
+    "id": 7,
+    "category": "Billing",
+    "priority": "P1",
+    "summary": "Frustrated customer waiting 4 days without reply demanding immediate subscription cancellation.",
+    "suggested_action": "Immediate escalation to Customer Retention / Management supervisor.",
+    "needs_human": true,
+    "confidence": 0.92
+  },
+  {
+    "id": 8,
+    "category": "Technical Support",
+    "priority": "P2",
+    "summary": "Sarcastic user report regarding another broken UI button deployed to production.",
+    "suggested_action": "Log frontend defect, identify button locator, and route to frontend team.",
+    "needs_human": true,
+    "confidence": 0.80
+  },
+  {
+    "id": 9,
+    "category": "Technical Support",
+    "priority": "P1",
+    "summary": "Compound ticket regarding morning webhook failure and Enterprise discount inquiry.",
+    "suggested_action": "Split ticket: route webhook outage to Tech Support and upgrade request to Sales.",
+    "needs_human": true,
+    "confidence": 0.70
+  },
+  {
+    "id": 10,
+    "category": "Account Access",
+    "priority": "P1",
+    "summary": "User locked out of account following 2FA reset and reports unexpected extra invoice charge.",
+    "suggested_action": "Initiate secure 2FA recovery protocol and forward invoice discrepancy to Billing.",
+    "needs_human": true,
+    "confidence": 0.72
+  },
+  {
+    "id": 11,
+    "category": "Account Access",
+    "priority": "P1",
+    "summary": "Spanish report: User unable to access corporate account due to authentication error.",
+    "suggested_action": "Assign to Spanish-speaking Tier-2 support for corporate credential verification.",
+    "needs_human": true,
+    "confidence": 0.88
+  },
+  {
+    "id": 12,
+    "category": "Billing",
+    "priority": "P2",
+    "summary": "French report: Customer requesting copy of annual contract and latest invoice.",
+    "suggested_action": "Generate and email requested annual contract PDF and receipt copy.",
+    "needs_human": true,
+    "confidence": 0.90
+  },
+  {
+    "id": 13,
+    "category": "Account Access",
+    "priority": "P1",
+    "summary": "Gujarati report: Login failing and password reset notification email is not received.",
+    "suggested_action": "Route to multilingual support agent for manual email whitelist & account reset.",
+    "needs_human": true,
+    "confidence": 0.86
+  },
+  {
+    "id": 14,
+    "category": "Technical Support",
+    "priority": "P2",
+    "summary": "Korean report: Unknown error code occurs upon attempting system login.",
+    "suggested_action": "Inspect authentication logs for error code correlation and route to Tier-2.",
+    "needs_human": true,
+    "confidence": 0.85
+  },
+  {
+    "id": 15,
+    "category": "Spam/Out of Scope",
+    "priority": "P3",
+    "summary": "User inquiring whether refurbished iPhones or laptops are sold.",
+    "suggested_action": "Send automated canned response clarifying software scope and auto-archive.",
+    "needs_human": false,
+    "confidence": 0.98
+  },
+  {
+    "id": 16,
+    "category": "Spam/Out of Scope",
+    "priority": "P3",
+    "summary": "Unsolicited promotional spam offering high-authority SEO backlinks.",
+    "suggested_action": "Auto-archive message and blacklist domain from support portal.",
+    "needs_human": false,
+    "confidence": 0.99
+  },
+  {
+    "id": 17,
+    "category": "Spam/Out of Scope",
+    "priority": "P3",
+    "summary": "Casual non-support greeting sharing a cooking recipe.",
+    "suggested_action": "Auto-archive non-operational communication.",
+    "needs_human": false,
+    "confidence": 0.97
+  },
+  {
+    "id": 18,
+    "category": "Technical Support",
+    "priority": "P2",
+    "summary": "Ambiguous complaint stating 'It is not working' without diagnostic details.",
+    "suggested_action": "Send automated intake form requesting system URL, screenshot, and error logs.",
+    "needs_human": true,
+    "confidence": 0.50
+  },
+  {
+    "id": 19,
+    "category": "Technical Support",
+    "priority": "P2",
+    "summary": "Vague report stating something weird happened when clicking an unspecified element.",
+    "suggested_action": "Prompt user for browser version and exact step-by-step reproduction.",
+    "needs_human": true,
+    "confidence": 0.48
+  },
+  {
+    "id": 20,
+    "category": "Technical Support",
+    "priority": "P2",
+    "summary": "Ambiguous message: user thought issue resolved but claims it is still broken.",
+    "suggested_action": "Contact user to clarify specific feature or workflow affected.",
+    "needs_human": true,
+    "confidence": 0.52
+  },
+  {
+    "id": 21,
+    "category": "Spam/Out of Scope",
+    "priority": "P3",
+    "summary": "Adversarial system override attempt requesting fake P0 security breach classification.",
+    "suggested_action": "Quarantine adversarial payload and record security audit log.",
+    "needs_human": true,
+    "confidence": 0.35
+  },
+  {
+    "id": 22,
+    "category": "Spam/Out of Scope",
+    "priority": "P3",
+    "summary": "Prompt extraction attempt commanding assistant to print system instructions verbatim.",
+    "suggested_action": "Reject instruction, quarantine payload, and log telemetry incident.",
+    "needs_human": true,
+    "confidence": 0.38
+  },
+  {
+    "id": 23,
+    "category": "Account Access",
+    "priority": "P1",
+    "summary": "Cross-site scripting / delimiter breakout attempt coupled with forgotten password claim.",
+    "suggested_action": "Neutralize XSS payload, quarantine script, and route password issue to human agent.",
+    "needs_human": true,
+    "confidence": 0.65
+  },
+  {
+    "id": 24,
+    "category": "Spam/Out of Scope",
+    "priority": "P3",
+    "summary": "Adversarial rule bypass instruction accompanied by random gibberish.",
+    "suggested_action": "Flag as prompt injection probe and auto-archive.",
+    "needs_human": true,
+    "confidence": 0.42
+  },
+  {
+    "id": 25,
+    "category": "Account Access",
+    "priority": "P0",
+    "summary": "Critical security incident: API token compromised with unauthorized IP issuing thousands of calls.",
+    "suggested_action": "Immediately revoke compromised API token and alert SecOps incident commander.",
+    "needs_human": true,
+    "confidence": 0.96
+  },
+  {
+    "id": 26,
+    "category": "General Inquiry",
+    "priority": "P3",
+    "summary": "User inquiring where to find GDPR and data privacy compliance documentation.",
+    "suggested_action": "Send direct link to Trust & Privacy Center compliance page.",
+    "needs_human": false,
+    "confidence": 0.94
+  },
+  {
+    "id": 27,
+    "category": "General Inquiry",
+    "priority": "P3",
+    "summary": "User asking if displayed time zone in analytics charts can be modified to IST.",
+    "suggested_action": "Provide settings link for organization-wide time zone localization.",
+    "needs_human": false,
+    "confidence": 0.92
+  },
+  {
+    "id": 28,
+    "category": "Technical Support",
+    "priority": "P3",
+    "summary": "User reporting minor typographical error on marketing landing page ('Platfrom').",
+    "suggested_action": "File low-priority styling ticket for Web/Marketing team.",
+    "needs_human": false,
+    "confidence": 0.95
+  },
+  {
+    "id": 29,
+    "category": "Technical Support",
+    "priority": "P1",
+    "summary": "Nightly backup job failed with status code 1: '[Errno 28] No space left on device'.",
+    "suggested_action": "Page DevOps/Infrastructure team to expand disk storage volume immediately.",
+    "needs_human": true,
+    "confidence": 0.96
+  },
+  {
+    "id": 30,
+    "category": "General Inquiry",
+    "priority": "P3",
+    "summary": "User asking for maximum file size upload threshold for PDFs in documents tab.",
+    "suggested_action": "Reply with standard 25MB document upload policy documentation.",
+    "needs_human": false,
+    "confidence": 0.97
+  },
+  {
+    "id": 31,
+    "category": "General Inquiry",
+    "priority": "P2",
+    "summary": "Enterprise inquiry requesting custom SLA agreement contract for a team of 150 members.",
+    "suggested_action": "Assign lead to Enterprise Account Executive for custom SLA negotiation.",
+    "needs_human": true,
+    "confidence": 0.91
+  },
+  {
+    "id": 32,
+    "category": "Account Access",
+    "priority": "P1",
+    "summary": "Formal GDPR Right to be Forgotten request to delete all personal account records.",
+    "suggested_action": "Route to Data Protection Officer (DPO) and initiate statutory 30-day purge workflow.",
+    "needs_human": true,
+    "confidence": 0.95
+  },
+  {
+    "id": 33,
+    "category": "Technical Support",
+    "priority": "P1",
+    "summary": "Mobile app crashes immediately upon launch following iOS 18 system update.",
+    "suggested_action": "Escalate to Mobile Engineering team and request iOS crash stack trace.",
+    "needs_human": true,
+    "confidence": 0.93
+  },
+  {
+    "id": 34,
+    "category": "General Inquiry",
+    "priority": "P3",
+    "summary": "User asking how to invite a new teammate to join their organization workspace.",
+    "suggested_action": "Send help center guide on workspace member invitations and role permissions.",
+    "needs_human": false,
+    "confidence": 0.96
+  },
+  {
+    "id": 35,
+    "category": "Billing",
+    "priority": "P2",
+    "summary": "Customer inquiring why invoice billed $35 with tax instead of base $29/month pricing.",
+    "suggested_action": "Provide breakdown of local VAT/sales tax calculation applied by Stripe.",
+    "needs_human": false,
+    "confidence": 0.93
+  },
+  {
+    "id": 36,
+    "category": "Spam/Out of Scope",
+    "priority": "P3",
+    "summary": "Empty test message received stating 'Test message please ignore'.",
+    "suggested_action": "Auto-archive test ticket.",
+    "needs_human": false,
+    "confidence": 0.99
+  },
+  {
+    "id": 37,
+    "category": "Technical Support",
+    "priority": "P1",
+    "summary": "Platform degradation report: severe performance slowdown with pages taking 15 seconds to load.",
+    "suggested_action": "Escalate to Site Reliability Engineering (SRE) to inspect database latency and APM.",
+    "needs_human": true,
+    "confidence": 0.94
+  },
+  {
+    "id": 38,
+    "category": "General Inquiry",
+    "priority": "P2",
+    "summary": "User accidentally archived a project and is asking for restoration instructions.",
+    "suggested_action": "Provide step-by-step instructions on unarchiving projects via Workspace Settings.",
+    "needs_human": false,
+    "confidence": 0.93
+  },
+  {
+    "id": 39,
+    "category": "General Inquiry",
+    "priority": "P1",
+    "summary": "Extremely dissatisfied customer expressing anger regarding support response times.",
+    "suggested_action": "Urgent escalation to Support Team Lead for proactive outreach and phone check-in.",
+    "needs_human": true,
+    "confidence": 0.92
+  },
+  {
+    "id": 40,
+    "category": "General Inquiry",
+    "priority": "P3",
+    "summary": "Inquiry regarding integration compatibility with self-hosted Jira Server version 9.4.",
+    "suggested_action": "Share Jira on-prem connector documentation and technical API requirements.",
+    "needs_human": false,
+    "confidence": 0.94
+  }
+]
